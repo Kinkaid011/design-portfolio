@@ -90,7 +90,22 @@
   /////////////////////////////////////////////////////////////////////////
   ////////////////////////////////////////////////////////////////////////*/
 
-  
+  #initials {
+    font-weight: bold;
+    position: relative;
+    color: white;
+  }
+
+  #initials::before {
+    content: '';
+    background-color: #57ba98;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: -1;
+    bottom: 5px;
+  }
   
   .name {
     margin: 20px 0;
@@ -175,13 +190,38 @@
 
   #email img {
     display: block;
-    position: relative;
     width: 250px;
     height: auto;
     margin: auto;
-    top: 40px;
   }
 
+  #email a {
+    position: relative;
+    top: 30px;
+  }
+
+  .resturant img {
+    width: 190px;
+    height: 360px;
+  }
+  
+  .resturant a {
+    position: relative;    
+    top: 30px;
+    transition: top .25s ease;
+  }
+
+
+  .sunny-mockup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .sunny-mockup:hover > a {
+    top: 10px;
+  }
 
   .news-letter:hover > #mock-up , .landing-page:hover > #mock-up , .email-receipt:hover > #mock-up {
     animation-name: lift;
@@ -419,6 +459,11 @@
   
     #email h4 {
       padding: 15px 0 0 15px;
+    }
+
+    .resturant img {
+      width: 230px;
+      height: auto;
     }
   
     .news-letter, .landing-page {
