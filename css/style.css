@@ -324,6 +324,11 @@
     width: auto;
   }
 
+  .small {
+    font-size: small;
+    color: #555353;
+  }
+
   /* /////////////////  ABOUT SECTION  /////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////
   /////////////////////////////////////////////////////////////////////////
@@ -393,7 +398,7 @@
   ////////////////////////////////////////////////////////////////////////*/
   footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     height: 150px;
     padding: 0 0 2rem 0;
   }
@@ -403,13 +408,14 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 10px;
   }
 
   .social-media a {
     cursor: pointer;  
     text-decoration: none;
+    position: relative;
   }
+
 
   .social-media img:hover {
     width: 22px;
@@ -437,6 +443,10 @@
     z-index: -1;
     bottom: 0;
     left: -2px;
+  }
+
+  .footer-note {
+    padding: 2rem 0 0 0;
   }
   
   
@@ -554,6 +564,15 @@
     .contactsection hr {
       background-color: #040404;
       margin: 150px 0 50px 0;
+    }
+
+    footer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .footer-note {
+      padding: 0;
     }
   }
 

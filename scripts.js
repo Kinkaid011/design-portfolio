@@ -5,7 +5,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.timeline()
 .from("#captiontext", {stagger:0.1, opacity: 0, y: 100, delay: .5, duration: 1, ease: "back"})
-.from(".headshot", {opacity: 0, y: -50, duration: 1, ease: "back"});
+.from(".headshot, .shot", {opacity: 0, y: -50, duration: 1, ease: "back"})
+
 
 
 
