@@ -208,8 +208,8 @@
   }
 
   .resturant img {
-    width: 190px;
-    height: 360px;
+    width: 100%;
+    height: auto;
   }
   
   .resturant a {
@@ -223,6 +223,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
   }
 
 
@@ -533,8 +534,8 @@
     }
 
     .resturant img {
-      width: 230px;
-      height: auto;
+      width: auto;
+      height: 290px;
     }
   
     .news-letter {
