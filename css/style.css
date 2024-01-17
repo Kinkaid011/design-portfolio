@@ -534,8 +534,8 @@
     }
 
     .resturant img {
-      width: auto;
-      height: 290px;
+      width: 100%;
+      height: auto;
     }
   
     .news-letter {
