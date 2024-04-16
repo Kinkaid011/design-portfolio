@@ -525,7 +525,7 @@
       height: 600px;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr, 1fr, 1fr;
       grid-gap: 0;
     }
   
@@ -544,6 +544,12 @@
     }
   
     .news-letter {
+      border-bottom: 3px solid #353535;
+      height: 100%;
+      width: 100%;
+    }
+
+    .landing-page {
       border-bottom: 3px solid #353535;
       height: 100%;
       width: 100%;
