@@ -187,6 +187,10 @@
     border-radius: 15px;
   }
 
+.landing-page {
+    border-bottom: 3px solid #353535;
+  }
+
   #email {
     height: 600px;
     display: grid;
