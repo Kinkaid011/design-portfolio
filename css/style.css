@@ -15,11 +15,17 @@
     background-color: white;
   }
 
-  h1,h2,h4,h5,h6 {
+  h1,h2,h4,h5 {
     margin: 0;
     color: #040404;
     font-weight: bold;
   }
+
+h6 {
+  margin-top: 8px;
+  color: #57ba98;
+  font-weight: bold;
+}
 
   h4 {
       display: inline-block;
